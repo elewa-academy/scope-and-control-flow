@@ -89,24 +89,26 @@ __Programming Skillzz:__
 
 ## Specifications
 
-Continue working your way through your preferred on-line tutorial, regularly tying what you learn there back to these step-through examples. Not all of the examples will have complete step-through diagrams provided, moving forward we'll just be filling in the tricky bits. Stay engaged with these examples like you did in __Variables & Types__, it's not enough to understand them!  You'll know you've got them down when you can predict PythonTutor's next steps:
-1. [Block Scope](./1-bloc-scope)
-2. [Conditionals](./2-conditionals)
-  * if/else/if else
-  * switch case
-3. [Loops](./3-loops)
-  1. while
-  2. for
-  3. do while
-4. [Error Handling](./error-handling)
-  1. Throw
-  2. Try/Catch
-
-_Sketching execution:_
+_Tracing Execution:_
 Nothing that you learned in __Variables & Types__ about sketching run-time behavior has changed, but there will be 2 new things to be aware of:
 1. __Block Scope__: You will now need to indicate in your sketch when a new scope has been opened or closed and illustrate which scope a variable belongs to.  There are examples for how to do this in [Block Scope](./1-block-scope).
 2. Keeping track of the previous, current and next lines to execute will become much more involved.  With conditional checks and loops you will need to think a little harder to trace JavaScript's journey through your code.
 3. You will now be expected to indicate a variable's __role__ and why it is accessed.  It is enough to mention this in the text above your sketch, there is no need to include this info in the diagram itself.
+
+
+Continue working your way through your preferred on-line tutorial, regularly tying what you learn there back to these step-through examples. Not all of the examples will have complete step-through diagrams provided, moving forward we'll just be filling in the tricky bits. Stay engaged with these examples like you did in __Variables & Types__, it's not enough to understand them!  You'll know you've got them down when you can predict PythonTutor's next steps:  
+1. [Block Scope](./1-bloc-scope)
+2. [Conditionals](./2-conditionals)
+    1. if/else/if else
+    2. switch case
+3. [Loops](./3-loops)
+    1. while
+    2. for
+    3. do while
+4. [Error Handling](./error-handling)
+    1. Throw
+    2. Try/Catch
+
 
 
 
@@ -120,8 +122,8 @@ __Tutorials and the Like:__
 * [JavaScipt.info](https://javascript.info): 
   * 2.10 -> 2.13 
   * 4.1 -> 4.2 
-  * 5.6 -> 5.9 ()
-  * 8.1 -> 8.2 (error handling)
+  * 5.6 -> 5.9 
+  * 8.1 -> 8.2 
 * Practical JavaScript:
   * [Controlling Logical Flow](https://shawnr.gitbooks.io/practical-introduction-to-javascript/content/controlling-logical-flow/)
 * MDN: 
@@ -137,7 +139,7 @@ __Tutorials and the Like:__
 
   
 
-#### Tools:
+__Tools:__
 * [Realtime flow-chart generator](https://bogdan-lyashenko.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html):
   * For visualizing flow control, the logical structure & progression of your code.
   * Copy paste code into this site to automatically generate flow control visualizations.
@@ -149,7 +151,7 @@ __Tutorials and the Like:__
   * Copy paste your code into the text box and click the magic button.  Click "get feedback" to grade your answer.
 
 
-Tricky Bits:
+__Tricky Bits:__
 * JavaScript Types:
   * [Primitives vs. Objects](https://codeburst.io/javascript-data-types-explained-347555cd2d4d)
   * [List of them](https://www.w3schools.com/js/js_datatypes.asp)
