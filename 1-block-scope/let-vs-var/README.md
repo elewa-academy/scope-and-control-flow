@@ -1,12 +1,12 @@
 ## Let vs Var
 
-During the __creation phase__. the JavaScript engine will read through all of your code and create any variables declared with the "var" key word.  These _hoisted variables_ will exist before the first line of code is executed and will have the default value __undefined__.  
+ES6 introduced _let_ variables and _block scoping_. Because new versions of JavaScript needs to remain backwards-compatible, the couldn't change the behavior of _var_ variables.  The result is that _let_ variables behave very differently than _var_'s when enclosed by curly braces. 
 
-The practical result of hoisting "var" variables is that you can use them in your script before reaching the line where they are declared, but they will not have the value you intended.  Once you reach that line, the desired value will be __assigned__ to your variable and everything will work as expected.
+_Let_ variables will be confined to the braces where they were created: _block scoping_.
 
+_Var_ variables are hoisted outside of almost any curly braces they are in (except functions): _lexical scoping_. {more on this in the next chapter}
 
-Variables declared with "let" or "const" are not hoisted.  This means that if you attempt to use them before executing the line where they are declared, the JS runtime will throw an error.  This example only uses "let" to keep things shorter, but the behavior is the same for "const".
-
+The example below illustrates how _var_ & _let_ variables are treated differently by JavaScript whenever a new block is created.
 
 ___
  
@@ -28,7 +28,7 @@ console.log('final state');
 
 [PythonTutor link](https://goo.gl/TMzZRs)
 
-[Parsons Practice](https://elewa-academy.github.io/parsons/examples-to-study/variables-types/hoisting.html)
+[Parsons Practice](https://elewa-academy.github.io/parsons/examples-to-study/let-vs-var.html)
 
 ___
 
