@@ -23,8 +23,10 @@ console.log(number);
 ```
 [PythonTutor link](https://goo.gl/5WViFy)
 
-Flow chart representation:
-* ![](./while-loop-flow-chart.svg)
+
+___
+
+(sample diagrams coming soon)
 
 
 

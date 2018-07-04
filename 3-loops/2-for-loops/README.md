@@ -1,4 +1,10 @@
-For loops in JavaScript are [__syntactic sugar__](https://www.quora.com/What-is-syntactic-sugar-in-programming-languages). 
+# For Loops
+
+For loops are very similar to while loops (and are in fact interchangeable). Deciding when to use one or the other is a strategic question:  For loops are more appropriate when you know how many times the loop will be executed, like when you have an array with x items. 
+
+Technically speaking for loops in JavaScript are [__syntactic sugar__](https://www.quora.com/What-is-syntactic-sugar-in-programming-languages), meaning you can replicate their exact behavior using simpler language features. 
+
+One big Gotcha! with for loops is how JavaScript behaves differently when you use _let_ or _var_ to declare the incrementing variable.  Because we believe in relating new knowledge to previous understanding let's try understanding this difference by replicating _for_ loop behavior using _while_ loops and _block scoping_:
 
 [For loops](https://www.w3schools.com/js/js_loop_for.asp) do not handle __var__ and __let__ as you would expect.  So we have an example for each:
 * [Lexical Scope in For Loops](./for-loop-var) - using __var__ 
@@ -31,4 +37,38 @@ for (statement 1; statement 2; statement 3) {
 
 > Statement 3 is executed (every time) after the code block has been executed.
 
-simulate while loop with for loop
+___
+
+### Resources
+
+[MDN on For Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+
+[Video + Article](https://www.kirupa.com/html5/loops_in_javascript.htm)
+
+___
+
+### Just for fun
+
+
+Let's replicate a __while__ loop with a __for__ loop:
+
+```js
+let i = 0;
+while (i < 3) {
+	i++;
+};
+```
+
+becomes:
+```js
+let i = 0;
+for (; i < 3;) {
+	i++;
+};
+```
+
+
+___
+___
+### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"/></a>
+
