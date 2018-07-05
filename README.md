@@ -98,7 +98,7 @@ Nothing that you learned in __Variables & Types__ about sketching run-time behav
 
 
 Continue working your way through your preferred on-line tutorial, regularly tying what you learn there back to these step-through examples. Not all of the examples will have complete step-through diagrams provided, moving forward we'll just be filling in the tricky bits. Stay engaged with these examples like you did in __Variables & Types__, it's not enough to understand them!  You'll know you've got them down when you can predict PythonTutor's next steps:  
-1. [Block Scope](./1-bloc-scope)
+1. [Block Scope](./1-block-scope)
 2. [Conditionals](./2-conditionals)
     1. if/else/if else
     2. switch case
