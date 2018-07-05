@@ -1,44 +1,73 @@
 ## Nesting Block Scopes
 
+It's possible to make scopes inside of scopes.  This may sound intimidating and certainly can make code behavior more difficult to interpret, but the way JavaScript handles nested scope is not so difficult to understand.
 
-
+From JavaScirpt's perspective, there is no difference between a nested block and an un-nested block.  Hopefully this example will help make that clear.
 
 
 ### Index:
-* [Sample Step-Through](#sample-step-through)
+* [The Code](#the-code)
+* [The Sketches](#the-sketches)
 * [More examples to study](#more-examples-to-study)
 
 ___
 
-### Sample Step-Through
+### The Code
+
+This example illustrates how JS treats nested scopes and __let__ variables:  
+* The variables are all arrays, at each point the arrays will indicate in which scope their variable is active.  
+* The console.log's will indicate how JavaScript is dealing with scopes in the background.
 
 ```js
-let global_let = 'global let';
-console.log('leaving global scope');
+let block_0 = ['b0'];
+console.log('preparing block 1');
 {
-    console.log('entering block scope');
-    var inner_var = 'global var';
-    let inner_let = 'inner let';
-    console.log('leaving block scope');
+  let block_1 = [];
+  block_0.push('b1'), block_1.push('b1');
+  console.log('preparing block 2');
+  {
+    let block_2 = [];
+    block_0.push('b2'), block_1.push('b2'), block_2.push('b2');
+    console.log('clearing block 2'), block_0.pop(), block_1.pop();
+  };
+  console.log('clearing block 1'), block_0.pop();
 };
-console.log('re-entering global scope');
-inner_var = 'modified globally';
 console.log('final state');
 ```
 
-[PythonTutor link](https://goo.gl/TMzZRs)
+[PythonTutor link](https://goo.gl/LejEUJ)
+
+[Parsons Practice](https://elewa-academy.github.io/parsons/examples-to-study/nesting-scopes.html)
 
 ___
 
 
+### The Sketches
 
+![](./step-01.png)
+![](./step-02.png)
+![](./step-03.png)
+![](./step-04.png)
+![](./step-05.png)
+![](./step-06.png)
+![](./step-07.png)
+![](./step-08.png)
+![](./step-09.png)
+![](./step-10.png)
+![](./step-11.png)
+![](./step-12.png)
+![](./step-final.png)
+
+___
+
+![](./final-state.png)
 
 ___
 
 ### More examples to study
 
 
-Very thorough example. ([PythonTutor link](https://goo.gl/qC9ppR)):
+Very long/thorough example. ([PythonTutor link](https://goo.gl/qC9ppR)):
 ```js
 let global_let = 'global_let';
 var global_var = 'global_var';

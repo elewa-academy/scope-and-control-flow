@@ -77,9 +77,9 @@ __Programming Skillzz:__
   * Arrays in Objects
   * Objects in Arrays
 * Errors:
-  * Syntax errors 
-  * Logic errors
-  * Runtime errors
+  * Syntax errors: Code can't be read by JS 
+  * Logic errors: Code runs but does not behave as expected
+  * Runtime errors: Code compiles, but tries to do something impossible
 
 
   
