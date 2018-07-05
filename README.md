@@ -51,6 +51,7 @@ __JavaScript:__
 * Error Handling:
   * throw
   * try/catch/finally
+* Not Functions! 
 
 
 
