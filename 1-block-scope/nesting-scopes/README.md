@@ -37,7 +37,7 @@ console.log('final state');
 
 [PythonTutor link](https://goo.gl/LejEUJ)
 
-[Parsons Practice](https://elewa-academy.github.io/parsons/examples-to-study/nesting-scopes.html)
+[Parsons Practice](https://elewa-academy.github.io/parsons/examples-to-study/scope-and-control-flow.html#nesting-scopes)
 
 ___
 

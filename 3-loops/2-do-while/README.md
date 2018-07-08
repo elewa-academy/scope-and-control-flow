@@ -1,4 +1,4 @@
-# While Loops
+# Do While Loops
 
 A while loop simply repeats a chunk of code until a condition has been met.  While loops are the most basic type of loop in JavaScript, but can also be the most tricky to learn to use well.  
 
@@ -12,25 +12,32 @@ ___
 
 ___
 
+___
+
 ## Example Step-Through
 
 ```js
 let result = '';
 
 let stepper = 0;
-while (stepper < 2) {
+do {
   result += stepper;
   stepper++;
-};
+} while (stepper < 2);
 
 console.log(result);
 ```
-[PythonTutor link](https://goo.gl/7MmFcb)
+[PythonTutor link](https://goo.gl/NA4wzp)
 
 
 ___
 
 (sample diagrams coming soon)
+
+
+___
+
+## Resources
 
 
 

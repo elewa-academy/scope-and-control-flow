@@ -8,6 +8,7 @@ switch (condition && true) {
     break;
   case false:
     result = 'condition is false';
+    break;
   default:
     result = 'condition is not boolean';
 }
@@ -20,4 +21,3 @@ illustrates the perils of switch/casing
 
 https://javascript.info/switch
 
-https://goo.gl/gZYg9y

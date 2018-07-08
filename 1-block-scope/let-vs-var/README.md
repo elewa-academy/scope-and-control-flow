@@ -28,7 +28,7 @@ console.log('final state');
 
 [PythonTutor link](https://goo.gl/TMzZRs)
 
-[Parsons Practice](https://elewa-academy.github.io/parsons/examples-to-study/let-vs-var.html)
+[Parsons Practice](https://elewa-academy.github.io/parsons/examples-to-study/scope-and-control-flow.html#let-vs-var)
 
 ___
 

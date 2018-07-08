@@ -168,7 +168,8 @@ __Tricky Bits:__
 * Which Loop to use?
   * [So many of them!](https://www.hackreactor.com/blog/javascript-loops-difference-between-types-while-for-in) - [interactive examples](http://www.dofactory.com/tutorial/javascript-loops)
   * For's vs While's: [StackOverflow](https://stackoverflow.com/questions/39969145/while-loops-vs-for-loops-in-javascript), [TeamTreeHouse](https://teamtreehouse.com/community/why-use-while-loop-instead-of-for)
-  * [While vs Do While](https://www.digitalocean.com/community/tutorials/using-while-and-do-while-loops-in-javascript)
+  * While vs Do While: [Digital Ocean](https://www.digitalocean.com/community/tutorials/using-while-and-do-while-loops-in-javascript), [Tutorial GateWay](https://www.tutorialgateway.org/difference-between-javascript-while-and-do-while-loop/)
+  * [Speed -> standard for loop](https://www.sixhat.net/comparing-javascript-loops-performance-for-do-while-for-in.html)
   * [Same challenge, different loops](https://gist.github.com/colevandersWands/a25901206cf04f266afde7da8b7aa152)
 * __let__ in a for loop:
   * [Step-through example](./3-loops/2-for-loops)
