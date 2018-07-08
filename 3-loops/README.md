@@ -1,4 +1,4 @@
-# Loops
+# [Loops](https://javascript.info/while-for)
 
 Loops are a language construct that enable the _repetition_ strategy.  
 
@@ -14,7 +14,6 @@ There are two foundational types of loops:
 And 2 loop modifiers which give you more flexibility when defining your loops' behavior:
 * [Break](./8-continue)
 * [Continue](./7-continue)
-
 
 ___
 ___

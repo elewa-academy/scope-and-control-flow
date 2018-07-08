@@ -1,22 +1,21 @@
 # Scope & Control Flow
 
 
-In __Variables & Types__ you learned how to track the state of your application step-by-step.  In __Scope & Control Flow__ you will learn how to read and manipulate program state in order to make decisions within your code's run-time execution. Code is not smart, but the people who make it can be.  
+In __Variables & Types__ you learned how to track your application's state step-by-step.  In __Scope & Control Flow__ you will learn how to read and manipulate program state in order to make decisions in your code. Code is not smart, but the people who make it can be.  
 
 At this stage you want to think of the code you write as simply an automation of the decisions you would make yourself if you had to do a task by hand. The basic units of __strategy__ in JavaScript are:
 * _Conditional Branching_ - Performing different actions depending on some condition (if, else, else if, switch/case).
 * _Repetition_ - Performing small, repetitive tasks until a larger goal has been accomplished (loops: while, for, do while).
-
-You are now learning more complex code constructs, but the heart of your program is still variables and the values that they store. In order to successfully use either of these strategies you must be comfortable interpreting and tracking your application's state as your code grows more complex.   
+You are now learning more complex code constructs, but at it's heart ofyour program is still just variables and the values that they store.  
 
 With the introduction of Control Flow, you will have to think about how and when you access variables.  This is a complex topic that you will continue to explore through the rest of this course, especially when you begin to explore __separation of concerns__ and __functional vs Object Oriented__ programming.  But for now you will only need to think about these three aspects of variable access:
-1. _Reading_ - What is the purpose of reading this variable?  You will typically find there are two reasons to read from a variable: to make a decision based on it's contents (conditionals, loops), or to use it's value to generate a new value.
-2. _Modifying_ -  What is the purpose of modifying this variable?  Variable modifications store information generated during the program's runtime for later use.  figure out something else to say here.
-3. _Scope_ - In which scope is a variable accessed?  Was it accessed in the same scope it was created?  
+1. _Reading_ - What is the purpose of reading this variable?  You will find there are typically two reasons to read from a variable: to make a decision based on it's value (conditionals, loops), or to use it's value to generate a new value.
+2. _Writing_ -  What is the purpose of writing to this variable? Are you storing a new value, updating an old one? Variable modifications store information generated during the program's runtime for later use.  Try to think about what this value can be used for later on.  
+3. _Scope_ - In which block is a variable accessed?  Was it accessed in the same block it was created?  
 
 After understanding these different access cases, you will be prepared to start thinking about [the __roles__](http://saja.kapsi.fi/var_roles/stud_vers/stud_Pascal_eng.html) that variables can play in program execution.  While there are 10+ distinct roles a variable can play in your code (depending on who you ask), we will be focusing on only 2 for now:
 1. _Meaningful Variables_ - These are variables that store values related to the purpose of your code.  These values will show up directly in the final result of your code and may be mapped onto the real-world. A variable is probably a __meaningful variable__ if it is mentioned in the prompt, console.logged'd at the end of your program, or is used as part of the final result. 
-2. _Utility Variables_ - These are variables that store information necessary for successful execution, but that will not show up anywhere in the final result. Examples include: "i" in for loops, arrays or objects containing pieces of the final result, or booleans used for decision making.
+2. _Utility Variables_ - These are variables that store information necessary for successful execution, but that will not show up anywhere in the final result. Examples include: "i" in for loops, arrays or objects storing pieces of the final result, or values used solely for conditional checks making.
 
 
 
@@ -37,6 +36,8 @@ __Study Techniques:__
 __JavaScript:__
 * Block Scope:
   * let & const
+  * Global scope & Block scope
+  * Inner & Outer (nested block scopes)
   * (we'll see lexical scope in the next chapter)
 * Truthy & Falsey
 * Conditionals:
@@ -67,6 +68,7 @@ __Programming Skillzz:__
 * Strategy before Code:
   * Understanding the differences between control flow structures
   * Choosing the right control flow structure for your use case
+  * Planning variables by role
   * Creative incrementing in for loops
 * Using nested flow control:
   * Conditionals in conditionals
@@ -92,7 +94,7 @@ __Programming Skillzz:__
 
 _Tracing Execution:_
 Nothing that you learned in __Variables & Types__ about sketching run-time behavior has changed, but there will be 2 new things to be aware of:
-1. __Block Scope__: You will now need to indicate in your sketch when a new scope has been opened or closed and illustrate which scope a variable belongs to.  There are examples for how to do this in [Block Scope](./1-block-scope).
+1. __Block Scope__: You will now need to indicate in your sketch when a new scope has been opened or closed and illustrate which scope a variable belongs to (inner or outer).  There are examples for how to do this in [Block Scope](./1-block-scope).
 2. Keeping track of the previous, current and next lines to execute will become much more involved.  With conditional checks and loops you will need to think a little harder to trace JavaScript's journey through your code.
 3. You will now be expected to indicate a variable's __role__ and why it is accessed.  It is enough to mention this in the text above your sketch, there is no need to include this info in the diagram itself.
 
@@ -106,7 +108,8 @@ Continue working your way through your preferred on-line tutorial, regularly tyi
     1. while
     2. for
     3. do while
-4. [Error Handling](./error-handling)
+4. [Nested Structures](./nested-structures)
+5. [Error Handling](./error-handling)
     1. Throw
     2. Try/Catch
 
@@ -166,6 +169,7 @@ __Tricky Bits:__
   * [So many of them!](https://www.hackreactor.com/blog/javascript-loops-difference-between-types-while-for-in) - [interactive examples](http://www.dofactory.com/tutorial/javascript-loops)
   * For's vs While's: [StackOverflow](https://stackoverflow.com/questions/39969145/while-loops-vs-for-loops-in-javascript), [TeamTreeHouse](https://teamtreehouse.com/community/why-use-while-loop-instead-of-for)
   * [While vs Do While](https://www.digitalocean.com/community/tutorials/using-while-and-do-while-loops-in-javascript)
+  * [Same challenge, different loops](https://gist.github.com/colevandersWands/a25901206cf04f266afde7da8b7aa152)
 * __let__ in a for loop:
   * [Step-through example](./3-loops/2-for-loops)
   * [Noraesae](https://noraesae.net/2017/09/14/lexical-scope-in-js-for-loop/)

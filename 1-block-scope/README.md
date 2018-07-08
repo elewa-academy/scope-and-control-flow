@@ -1,12 +1,13 @@
 # Block Scope
 
-Code blocks adds a whole new level of behavior to JS variables. Take a look through the examples step-throughs below to learn the basics of Block Scope and how to diagram it in your sketches.
+Code blocks add a whole new level of behavior to JS variables. Take a look through the example step-throughs below to learn the basics of Block Scope and how to diagram it in your sketches.
 
 _A little warning_ -  These sketches only capture the behavior of __var__ & __let__ within code blocks:
-* Just opening and closing braces
+* Just opening and closing braces 
 * loops
 * conditionals
 * try/catch blocks
+* (Not Functions!)
 
 These diagrams __*do not*__ apply to functions or function execution.
 

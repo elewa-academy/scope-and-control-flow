@@ -16,12 +16,12 @@ ___
 
 ```js
 let number = 0;
-while (number < 3) {
+while (number < 2) {
   number++;
 };
 console.log(number);
 ```
-[PythonTutor link](https://goo.gl/5WViFy)
+[PythonTutor link](https://goo.gl/83ZQgK)
 
 
 ___
