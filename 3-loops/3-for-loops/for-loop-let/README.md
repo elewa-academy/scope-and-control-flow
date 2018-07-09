@@ -1,4 +1,4 @@
-https://goo.gl/AGJdUi
+simulated for loop with "let":
 ```js
 let result = '';
 
@@ -16,7 +16,13 @@ let result = '';
 console.log(result);
 ```
 
-https://goo.gl/mmZ8jY
+[pytut link](https://goo.gl/AGJdUi)
+
+[parsons practice](https://elewa-academy.github.io/parsons/examples-to-study/scope-and-control-flow.html#sim-for-loop-let)
+
+___
+
+for loop with "let":
 ```js
 let result = '';
 
@@ -26,3 +32,7 @@ for (let stepper = 0; stepper < 2; stepper++) {
 
 console.log(result);
 ```
+
+[parsons practice](https://elewa-academy.github.io/parsons/examples-to-study/scope-and-control-flow.html#for-loop-let)
+
+[pytut link](https://goo.gl/mmZ8jY)

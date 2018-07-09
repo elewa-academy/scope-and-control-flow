@@ -27,6 +27,7 @@ console.log(result);
 ```
 [PythonTutor link](https://goo.gl/7MmFcb)
 
+[parsons practice](https://elewa-academy.github.io/parsons/examples-to-study/scope-and-control-flow.html#while-loop)
 
 ___
 

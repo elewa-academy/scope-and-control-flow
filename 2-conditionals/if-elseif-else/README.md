@@ -1,6 +1,6 @@
 ```js
-let condition;
 let result = '';
+let condition;
 
 if (condition == true) {
 	result = 'condition is true';
@@ -12,7 +12,9 @@ if (condition == true) {
 
 console.log(result)
 ```
+[pytut link](https://goo.gl/UnjoEB)
+
+[parsonized](https://elewa-academy.github.io/parsons/examples-to-study/scope-and-control-flow.html#if-elseif-else)
 
 
-https://goo.gl/PnH61q
 

@@ -1,8 +1,8 @@
 ```js
-let condition = false;
 let result = '';
+let condition;
 
-switch (condition && true) {
+switch (condition) {
   case true:
     result = 'condition is true';
     break;
@@ -11,13 +11,14 @@ switch (condition && true) {
     break;
   default:
     result = 'condition is not boolean';
-}
+};
 
 console.log(result);
 ```
-this code has a logic error
 
-illustrates the perils of switch/casing
+[pytut link](https://goo.gl/oeZvhT)
+
+[parsons practice](https://elewa-academy.github.io/parsons/examples-to-study/scope-and-control-flow.html#switch-case)
 
 https://javascript.info/switch
 

@@ -27,8 +27,10 @@ do {
 
 console.log(result);
 ```
+
 [PythonTutor link](https://goo.gl/NA4wzp)
 
+[parsons practice](https://elewa-academy.github.io/parsons/examples-to-study/scope-and-control-flow.html#do-while-loop)
 
 ___
 
