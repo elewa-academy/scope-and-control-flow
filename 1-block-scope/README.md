@@ -18,7 +18,7 @@ ___
 ## Example step-throughs
 
 * [let vs. var](./let-vs-var)
-* [nesting scopes](./nesting-scopes)
+* [nesting scopes](https://github.com/elewa-academy/nesting-blocks-let)
 
 ___
 
