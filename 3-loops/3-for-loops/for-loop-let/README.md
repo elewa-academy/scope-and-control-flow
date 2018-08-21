@@ -1,3 +1,19 @@
+practical trace-block
+```js
+let result = '';
+
+for: {
+  let stepper = 0;
+  while (stepper < 2) {
+    result += stepper;
+    stepper++;
+  };
+  break for;
+};
+    
+
+```
+
 simulated for loop with "let":
 ```js
 let result = '';
