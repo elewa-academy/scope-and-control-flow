@@ -4,11 +4,26 @@ let result = '';
 
 {
   let stepper_1 = 0;
-  {
-    let stepper_2 = stepper_1;
-    while (stepper_2 < 2) {
-      result += stepper_2;
-      stepper_2++;
+  while: {
+    let stepper_2a;
+    {
+      stepper_2a = stepper_1;
+      if (stepper_2a < 2) {
+        break while;
+      } else {
+        result += stepper_2;
+        stepper_2a++;
+      };
+    };
+    let stepper_2b;
+    {
+      stepper_2b = stepper_2a;
+      if (stepper_2a < 2) {
+        break while;
+      } else {
+        result += stepper_2;
+        stepper_2b++;
+      };
     };
   };
 };
